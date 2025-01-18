@@ -49,14 +49,14 @@ const CollegeLandingPage: React.FC = () => {
         <div className="bg-[#EDEDE9] rounded-lg overflow-hidden">
           <div className="flex flex-col lg:flex-row items-center lg:items-start">
             {/* Left Section - Content */}
-            <div className="w-full lg:w-2/3 p-4 sm:p-6">
+            <div className="w-full lg:w-2/3 p-0 sm:p-6">
               <div className="flex items-center mb-4">
                 <img
                   src={universityData.logo}
                   alt="University Logo"
                   className="w-16 h-16 lg:w-12 lg:h-12 rounded-full mr-4"
                 />
-                <h1 className="text-xl lg:text-2xl font-bold text-gray-800">
+                <h1 className="text-md md:text-2xl font-bold text-gray-800">
                   {universityData.name}
                 </h1>
               </div>

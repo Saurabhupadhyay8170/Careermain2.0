@@ -48,8 +48,8 @@ const Contact = () => {
 
     return (
         <>
-        <div className='contact-container font-popins w-full relative  flex justify-center items-center mt-14'>
-            <div style={boxShadow} className="contact-main  gap-2 relative w-full lg:w-[50%] px-10 py-8 flex flex-col-reverse lg:flex-row  lg:bg-white">
+        <div className='contact-container font-popins w-full relative flex justify-center items-center mt-0 sm:mt-14'>
+            <div style={boxShadow} className="contact-main  gap-2 relative w-full sm:w-1/2 px-10 py-8 flex flex-col-reverse lg:flex-row  lg:bg-white">
                 <div className="contact-left font-sans my-auto w-full lg:w-2/4 text-center ">
                     <div className='w-full lg:w-3/4'>
                         <IoLocation size={20} className='inline-block text-center text-purple-700' />
