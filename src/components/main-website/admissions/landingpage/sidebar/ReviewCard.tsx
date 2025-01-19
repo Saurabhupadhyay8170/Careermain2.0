@@ -1,4 +1,5 @@
 import { FaPenNib, FaBookOpen, FaClipboard, FaFileAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ReviewCard = () => {
   return (
@@ -9,9 +10,11 @@ const ReviewCard = () => {
           <p className="text-sm mb-4">
             Share your thoughts and experiences to help others choose the best college.
           </p>
-          <button className="bg-white text-hoverBtn px-4 py-2 rounded shadow hover:bg-primaryBtn hover:text-white">
-            Start Writing
-          </button>
+          <Link to='/review1'>
+           <button className="bg-white text-hoverBtn px-4 py-2 rounded shadow hover:bg-primaryBtn hover:text-white">
+             Start Writing
+           </button>
+          </Link>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-6 relative">
         <div className="flex justify-center items-center animate-pulse">

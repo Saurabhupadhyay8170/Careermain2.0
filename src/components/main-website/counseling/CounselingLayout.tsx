@@ -30,6 +30,7 @@ function CounselingLayout({ data, loading, category }: any) {
                         <div className="w-full h-[50vh] flex justify-center">
                             <img src={no_data} className="w-full h-[80%] object-contain mix-blend-multiply" />
                         </div>
+                    
                     }
 
                 </div>

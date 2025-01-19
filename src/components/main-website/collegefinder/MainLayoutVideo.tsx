@@ -5,6 +5,7 @@ import VideoFinder from './VideoFinder';
 import FinderContent from './FinderContent';
 import UnivercitiesLogoSlider from '../homePage/UnivercitiesLogoSlider';
 import ScrollTop from '../ScrollTop';
+import PrivacyForm from '../privacypolicy/PrivacyForm';
 
 const MainLayoutVideo: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const MainLayoutVideo: React.FC = () => {
       <FinderContent/>
       
       <div className='px-4'><UnivercitiesLogoSlider/></div>
+      <PrivacyForm/>
     </div>
   );
 };
