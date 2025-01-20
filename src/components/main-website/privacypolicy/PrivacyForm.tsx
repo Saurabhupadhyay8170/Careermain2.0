@@ -136,14 +136,14 @@ function PrivacyForm() {
 
 
     return (
-        <div className="Contact-for bg-[#EDEDE9] py-[3rem]">
-            <h2 className="font-normal m-0  text-[32px] text-center">Get in touch with our </h2>
-            <h2 className="text-[32px] m-0 font-semibold text-center">expert counsellors</h2>
+        <div className="Contact-for font-poppins bg-[#EDEDE9] mt-4">
+            <h2 className="font-normal m-0 text-2xl sm:text-3xl text-center">Get in touch with our </h2>
+            <h2 className="text-1xl sm:text-2xl m-0 font-semibold text-center">expert counsellors</h2>
 
             <div className="form">
                 <div className="flex flex-col" >
                     <MyForm form={form}>
-                        <div className="flex flex-col lg:gap-5 lg:flex-row justify-evenly my-[3rem] lg:px-3">
+                        <div className="flex flex-col lg:gap-5 lg:flex-row justify-evenly lg:px-3">
                             <div className="w-[100%] lg:w-[23%]">
                                 <FormInput onChange={validateHandler} name="Name" required={true} type="text" pattern={/^[a-zA-Z\s]*$/} className="h-[40px]" />
                             </div>
