@@ -1,4 +1,6 @@
 import { FaLaptopCode, FaMicroscope, FaAtom, FaMoneyCheckAlt } from "react-icons/fa";
+//  import { Link } from "react-router-dom";
+// import React from 'react';
 
 const FinderCard = () => {
   return (

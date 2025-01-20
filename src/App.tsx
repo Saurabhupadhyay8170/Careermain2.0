@@ -17,6 +17,8 @@ import CollegeFoundRoutes from "./routes/CollegeFoundRoutes";
 import MainLayoutVideo from "./components/main-website/collegefinder/MainLayoutVideo";
 import ScrollTop from "./components/main-website/ScrollTop";
 import UniversityLayout from "./pages/landingpage/UniversityLayout";
+import TopContent from "./components/main-website/admissions/landingpage/review/TopContent";
+import ReviewRoutes from "./routes/ReviewRoutes";
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const dispatch = useDispatch();
@@ -85,6 +87,18 @@ function App() {
         }
         </Route>
         <Route path={'/UniversityLandingPage'} element={<UniversityLayout/>}/>
+        {ReviewRoutes.map(({ path, element: Element }, i) => (
+          <Route
+            key={i}
+            path={path}
+            element={
+              <>
+                <TopContent /> {/* This will display on top of all review routes */}
+                <Element /> {/* The actual content of the route */}
+              </>
+            }
+          />
+        ))}
       </Routes>
       <Chatbot/>
       <WhatsAppBtn/>

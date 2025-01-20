@@ -211,7 +211,7 @@ const Chatbot: React.FC = () => {
     <div>
       {/* Chat Icon */}
       <div
-        className="fixed bottom-10 right-5 w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white text-sm font-bold cursor-pointer shadow-lg z-50 transition-transform transform hover:scale-110"
+        className="fixed bottom-[70px] right-5 w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white text-sm font-bold cursor-pointer shadow-lg z-50 transition-transform transform hover:scale-110"
         onClick={toggleChat}
       >
         <div className="relative">
